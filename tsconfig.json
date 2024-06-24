@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // Compile to latest ECMAScript version
+    "module": "ESNext", // Use ES module syntax
+    "moduleResolution": "node", // Module resolution strategy
+    "esModuleInterop": true, // Enables default import from modules with no default export
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
+    "strict": true, // Enable all strict type-checking options
+    "skipLibCheck": true, // Skip type checking of all declaration files (*.d.ts)
+    "outDir": "./dist", // Redirect output structure to the directory
+    "rootDir": "./src", // Specify the root directory of input files
+    "declaration": true, // Generates corresponding '.d.ts' file
+    "sourceMap": true // Generates corresponding '.map' file
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
